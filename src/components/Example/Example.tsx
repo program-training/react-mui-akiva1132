@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Button, TextField, Checkbox, Radio, Select  } from "@mui/material";
 import "./Example.css";
-import { pink } from "@mui/material/colors";
 
 export function Example() {
   const [inputText, setInputText] = useState("");
@@ -21,12 +20,8 @@ export function Example() {
           Display Text
         </Button>
         <TextField sx={{backgroundColor:"greenyellow"}} variant="filled" id="inputText" />
-        <Checkbox sx={{
-    color: pink[800],
-    '&.Mui-checked': {
-      color: pink[600],
-    },}}></Checkbox>
-        <Radio  />
+        <Checkbox sx={{color: "blue",'&.Mui-checked': { color: "pink"}}}></Checkbox>
+        <Radio sx={{ fontSize: "90px"}} ></Radio>
         <Select sx={{backgroundColor:"greenyellow"}}>
           <option value="fv">dfv</option>
         </Select>

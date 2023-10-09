@@ -1,10 +1,10 @@
 import "./App.css";
-import { Example } from "./components/Example/Example";
+import { BasicTabs } from "./components/Tabs/Tabs";
 
 function App() {
   return (
     <>
-      <Example />{" "}
+      <BasicTabs />{" "}
     </>
   );
 }
